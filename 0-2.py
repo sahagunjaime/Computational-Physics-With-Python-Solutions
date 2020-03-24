@@ -12,7 +12,7 @@ axs[1].plot(t, np.log(N), color='black')
 
 axs[0].set_ylabel('N')
 axs[1].set_ylabel('log(N)')
-axs[1].set_xlabel('x label')
+axs[1].set_xlabel('time [s]')
 
 
 figure = Figure(figsize=(6, 8))
