@@ -14,7 +14,4 @@ axs[0].set_ylabel('N')
 axs[1].set_ylabel('log(N)')
 axs[1].set_xlabel('time [s]')
 
-
-figure = Figure(figsize=(6, 8))
-
 plt.show()
