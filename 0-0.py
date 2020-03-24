@@ -16,4 +16,4 @@ plt.plot(x, (x**2 * np.exp(-x) * np.sin(x**2))**2, color='black', label='second'
 plt.legend(loc='upper right')
 
 figure = Figure(figsize=(6, 5))
-plt.savefig('/Users/sahagunjaime/Desktop/prob1.png')
+plt.show()
