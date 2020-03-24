@@ -4,6 +4,9 @@ from matplotlib.figure import Figure
 
 f,m1,m2 = np.loadtxt('/Users/sahagunjaime/Desktop/microphone.txt', unpack=True)
 
+plt.title('Signal Ratio vs Frequency')
+plt.grid(color='black', linestyle='-', linewidth=.1)
+
 plt.xlabel('Frequency [Hz]')
 plt.ylabel(r'Amplitude Ratio [$Mic_2/Mic_1$]')
 
