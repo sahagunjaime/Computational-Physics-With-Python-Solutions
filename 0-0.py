@@ -5,7 +5,6 @@ from matplotlib.figure import Figure
 
 x = np.linspace(0,5,100)
 
-plt.title('Problem #1')
 plt.xlabel('X')
 plt.ylabel('Y')
 plt.xlim(0, 5)
