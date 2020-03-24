@@ -17,4 +17,4 @@ axs[1].set_xlabel('x label')
 
 figure = Figure(figsize=(6, 8))
 
-plt.savefig('/Users/sahagunjaime/Desktop/prob2.png')
+plt.show()
