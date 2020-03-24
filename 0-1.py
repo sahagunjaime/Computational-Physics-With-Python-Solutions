@@ -6,8 +6,6 @@ f,m1,m2 = np.loadtxt('/Users/sahagunjaime/Desktop/microphone.txt', unpack=True)
 
 plt.xlabel('Frequency [Hz]')
 plt.ylabel(r'Amplitude Ratio [$Mic_2/Mic_1$]')
-#plt.xlim(0, 5)
-#plt.ylim(-.2, .5)
 
 plt.plot(f, m2/m1, color='red')
 
